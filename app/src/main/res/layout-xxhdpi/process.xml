@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:background="@drawable/demo_fundo"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <!--
+
+    Copyright 2022. Eduardo Programador
+    www.eduardoprogramador.com
+    consultoria@eduardoprogramador.com
+
+    Todos os direitos reservados
+
+!-->
+
+    <ProgressBar
+        android:id="@+id/progress_file"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+    <ImageView
+        android:id="@+id/image_removed"
+        android:layout_centerInParent="true"
+        android:src="@drawable/demo_fundo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_below="@id/progress_file"
+        android:layout_centerHorizontal="true"
+        android:text="Removendo Fundo. Aguarde..."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button_renew"
+        android:layout_below="@id/text_result"
+        android:text="Continuar"
+        android:visibility="invisible"
+        android:layout_width="150dp"
+        android:textSize="16sp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/button_share"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/text_result"
+        android:visibility="invisible"
+        android:text="Compartilhar"
+        android:layout_width="150dp"
+        android:textSize="16sp"
+        android:layout_height="60dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+    Copyright 2022. Eduardo Programador
+    www.eduardoprogramador.com
+    consultoria@eduardoprogramador.com
+
+    Todos os direitos reservados
+
+!-->
+
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <root-path name="external_files" path="/" />
+</paths>
